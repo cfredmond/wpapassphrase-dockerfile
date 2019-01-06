@@ -5,5 +5,3 @@ RUN apt-get update && apt-get install -y \
 	wpasupplicant
 
 ENTRYPOINT ["wpa_passphrase"]
-
-# docker run -it wpasupplicant SSID
